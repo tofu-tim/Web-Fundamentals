@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Webpage</title>
+    <style>
+        /* Styles for the black banner */
+        
+        .banner {
+            background-color: black;
+            padding: 10px;
+            color: white;
+        }
+        /* Styles for the navigation links */
+        
+        .banner a {
+            color: white;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        /* Styles for the profile box */
+        /* Styles for the profile box */
+        
+        .profile-box {
+            position: relative;
+            margin-top: 25px;
+            height: 500px;
+            width: 600px;
+            border: 1px solid black;
+            padding: 15px;
+            box-sizing: border-box;
+            /* Include padding in height calculation */
+        }
+        /* Styles for the aqua banner inside the profile box */
+        
+        .profile-banner {
+            background-color: aqua;
+            height: 25%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        /* Styles for the circular profile picture */
+        
+        .profile-picture {
+            position: absolute;
+            top: calc(25% - 50px);
+            /* Positioned halfway between profile banner and main profile box */
+            transform: translateY(-50%);
+            left: 15px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: gray;
+        }
+        /* Styles for the user's name */
+        
+        .user-name {
+            position: absolute;
+            top: calc(25% + 15px);
+            /* Position adjusted for readability */
+            left: 135px;
+            /* Adjusted left position to avoid overlapping profile picture */
+            font-size: 24px;
+        }
+        /* Styles for the location tag */
+        
+        .location {
+            position: absolute;
+            top: calc(25% + 45px);
+            /* Position adjusted for readability */
+            left: 135px;
+            /* Adjusted left position to avoid overlapping profile picture */
+            font-size: 18px;
+        }
+        /* Styles for the user's bio */
+        
+        .bio {
+            position: absolute;
+            top: calc(25% + 75px);
+            /* Position adjusted for readability */
+            left: 135px;
+            /* Adjusted left position to avoid overlapping profile picture */
+            font-size: 18px;
+        }
+        /* Styles for the "Edit profile" link */
+        
+        .edit-profile {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="banner">
+        <a href="#">Profile</a>
+        <a href="#">Home</a>
+        <a href="#">My Profile</a>
+        <a href="#">Find Connections</a>
+        <div class="blue-box">
+            <a href="#">Sign Out</a>
+        </div>
+    </div>
+
+    <div class="profile-box">
+        <div class="profile-banner"></div>
+        <div class="profile-picture"></div>
+        <div class="user-name">Tom Felton</div>
+        <div class="location">Seattle</div>
+        <div class="bio">
+            Developer | Engineer | Problem Solver<br> Master of shadows and the internet!
+        </div>
+        <div class="edit-profile">
+            <span>&#9881;</span> <a href="#">Edit profile</a>
+        </div>
+    </div>
+
+    <!-- Rest of your webpage content goes here -->
+</body>
+
+</html>
