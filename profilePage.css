@@ -1,0 +1,93 @@
+/* Styles for the black banner */
+
+.banner {
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+
+
+/* Styles for the navigation links */
+
+.banner a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+/* Styles for the profile box */
+
+.profile-box {
+    position: relative;
+    margin-top: 25px;
+    height: 500px;
+    width: 600px;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+/* Styles for the aqua banner inside the profile box */
+
+.profile-banner {
+    background-color: aqua;
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* Styles for the circular profile picture */
+
+.profile-picture {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+
+/* Styles for the user's name */
+
+.user-name {
+    position: absolute;
+    top: 135px;
+    left: 15px;
+    font-size: 24px;
+}
+
+
+/* Styles for the location tag */
+
+.location {
+    position: absolute;
+    top: 165px;
+    left: 15px;
+    font-size: 18px;
+}
+
+
+/* Styles for the user's bio */
+
+.bio {
+    position: absolute;
+    top: 200px;
+    left: 15px;
+    font-size: 18px;
+}
+
+
+/* Styles for the "Edit profile" link */
+
+.edit-profile {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 14px;
+}
