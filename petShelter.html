@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="petShelter.css">
+    <script src="petShelter.js"></script>
+</head>
+
+<body>
+    <div id="topBanner">
+        <div class="topRow">
+            <img src="heart-light.png" alt="Heart Light Logo">
+            <span class="whiteText">Pet Shelter</span>
+            <div id="lookingForContainer">
+                <span class="lookingForText">I'm looking for a...</span>
+                <img class="pawImage" src="paw-light.png" alt="Paw Light">
+                <select class="dropdown">
+                    <option value="select">Select</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                </select>
+            </div>
+            <div id="inOrNearContainer">
+                <span class="inOrNearText">In or near</span>
+                <img class="pinImage" src="pin-light.png" alt="Pin Light">
+                <input class="locationInput" type="text" placeholder="City, State, or Zip Code">
+            </div>
+            <span class="blackText">
+                <span class="clickable">Find a Pet</span>
+            <span class="clickable">About</span>
+            <span class="clickable">Donate</span>
+            </span>
+            <div id="findFriendBox" onclick="displayAlert()">
+                <span class="findFriendText">Find your new best friend.</span>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="petProfilesContainer">
+        <div class="petProfile" id="petProfile1">
+            <img src="pepper.jpg" alt="Pepper">
+            <div class="petInfo">
+                <h2 class="petName">Pepper</h2>
+                <div class="pettingSection">
+                    <p class="pettingCount" id="pettingCount1"></p>
+                    <button class="givePetsButton" data-pet-id="1">Pet Pepper</button>
+                </div>
+                <p class="petDescription">Pepper is a bit shy, but do not be fooled.<br>She is a tiny evil little goblin once she gets to know you.</p>
+            </div>
+        </div>
+
+        <div class="petProfile" id="petProfile2">
+            <img src="bruce.jpg" alt="Bruce">
+            <div class="petInfo">
+                <h2 class="petName">Bruce</h2>
+                <div class="pettingSection">
+                    <p class="pettingCount" id="pettingCount2"></p>
+                    <button class="givePetsButton" data-pet-id="2">Pet Bruce</button>
+                </div>
+                <p class="petDescription">Bruce is a loyal companion. He loves long walks and cold weather. <br> His whereabouts were unknown on the day JFK was assassinated.</p>
+            </div>
+        </div>
+
+        <div class="petProfile" id="petProfile3">
+            <img src="oscar.jpg" alt="Oscar">
+            <div class="petInfo">
+                <h2 class="petName">Oscar</h2>
+                <div class="pettingSection">
+                    <p class="pettingCount" id="pettingCount3"></p>
+                    <button class="givePetsButton" data-pet-id="3">Pet Oscar</button>
+                </div>
+                <p class="petDescription">Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
