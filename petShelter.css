@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#topBanner {
+    background-color: turquoise;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topRow {
+    display: flex;
+    align-items: center;
+    margin-top: -5%;
+    margin-left: 20%;
+    color: white;
+    white-space: nowrap;
+}
+
+.whiteText {
+    margin-left: 2%;
+    font-size: 24px;
+}
+
+.blackText {
+    font-size: 20px;
+    margin-left: 10%;
+    color: black;
+}
+
+#lookingForContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: -20%;
+}
+
+.lookingForText {
+    font-size: 15px;
+}
+
+.pawImage {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.dropdown {
+    margin-left: 5px;
+}
+
+#inOrNearContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.inOrNearText {
+    font-size: 18px;
+}
+
+.pinImage {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.locationInput {
+    margin-left: 5px;
+    color: black;
+}
+
+.locationInput::placeholder {
+    color: lightgray;
+}
+
+.clickable {
+    margin-left: 10px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#findFriendBox {
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: -18%;
+    margin-top: 20%;
+    cursor: pointer;
+}
+
+.findFriendText {
+    font-size: 15px;
+    color: white;
+    margin-left: 5px;
+}
+
+.petProfilesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.petProfile {
+    position: relative;
+    width: 50%;
+    height: 125px;
+    background-color: lightgray;
+    border-radius: 3%;
+    margin-bottom: 20px;
+    display: flex;
+    /* Added property */
+    justify-content: space-between;
+    /* Added property */
+    align-items: center;
+    /* Added property */
+    padding: 10px;
+    /* Added property */
+}
+
+.petProfile img {
+    height: 115px;
+    border: 3px solid black;
+    border-radius: 3%;
+    margin-right: 10px;
+    /* Added property */
+}
+
+.petProfile .petInfo {
+    text-align: left;
+}
+
+#petProfile1 .petName {
+    font-size: 25px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: -80%;
+}
+
+#petProfile2 .petName {
+    font-size: 25px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: -52%;
+}
+
+#petProfile3 .petName {
+    font-size: 25px;
+    margin-bottom: 5px;
+    align-self: flex-start;
+    margin-top: 5px;
+    margin-left: -45%;
+}
+
+#petProfile1 .petDescription {
+    font-size: 15px;
+    margin-left: -80%;
+}
+
+#petProfile2 .petDescription {
+    font-size: 15px;
+    margin-left: -52%;
+}
+
+#petProfile3 .petDescription {
+    font-size: 15px;
+    margin-left: -45%;
+}
+
+.petProfile {
+    position: relative;
+    width: 50%;
+    height: 125px;
+    background-color: lightgray;
+    border-radius: 3%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.petProfile img {
+    height: 115px;
+    border: 3px solid black;
+    border-radius: 3%;
+    margin-right: 10px;
+}
+
+.petProfile .petInfo {
+    text-align: left;
+}
+
+.petProfile .givePetsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.petProfile .givePetsButton {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.petProfile .pettingCount {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    color: rgb(60, 59, 59);
+    font-size: 15px;
+    font-weight: bold;
+}
